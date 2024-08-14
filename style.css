@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Gloria+Hallelujah&family=Playwrite+BE+WAL:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.navigasi {
+    background-color: #000000;
+}
+.navbar-brand {
+    font-weight: 500;
+}
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-bottom: 85px;
+}
+.hero-section .hero1 {
+    width: 50%;
+}
+.hero1 h3 {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    margin: 150px 0 0 168px;
+    font-size: 10px;
+    letter-spacing: 10px;
+}
+.hero1 h1 {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin: -5px 0 0 150px;
+    animation: driyasz 4s in;
+}
+.hero1 .animation-driyasz {
+    width: 0%;
+    overflow: hidden;
+    animation: driyasz 3s infinite;
+}
+@keyframes driyasz {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 0;
+    }
+}
+.hero1 h4 {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 0 0 135px;
+    font-size: 15px;
+}
+.social-icon {
+    display: flex;
+    margin: 5px 0 0 105px;
+}
+.social-icon img {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border-radius: 30px;
+    transition: all 1s;
+}
+.social-icon img:hover {
+    transform: scale(0.8);
+    box-shadow: 0px 5px 6px black;
+}
+.hero-section .hero2 {
+    width: 50%;
+    margin: 80px 0 0 0;
+}
+.hero2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero2 img {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+}
+.hero2 img:nth-child(2) {
+    animation: avatar_fade_in_out 3s infinite;
+}
+@keyframes avatar_fade_in_out {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#about {
+    background-color: black;
+    color: white;
+    margin-top: -10px;
+    padding-bottom: 50px;
+}
+#about .about1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about1 img {
+    margin-top: 50px;
+    margin-bottom: -30px;
+    width: 300px;
+    height: 300px;
+}
+.about1 h3 {
+    font-family: "Poppins";
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: normal;
+}
+.about1 h5 {
+    margin-top: -5px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.about1 p {
+    font-family: "Poppins";
+    line-height: 2;
+    text-align: center;
+}
+.about1 .desc {
+    width: 300px;
+}
+.javascript {
+    background-color: yellow;
+    border-radius: 10px;
+}
+.nodejs {
+    background-color: #00840c;
+    border-radius: 10px;
+}
+.termux {
+    background-color: #b1b1b1;
+    border-radius: 10px;
+}
+.vscode {
+    background-color: #4aa0ff;
+    border-radius: 10px;
+}
+.git {
+    background-color: #ff6c51;
+    border-radius: 10px;
+}
+.npm {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}
+#about .about2 {
+    width: 50%;
+    padding: 50px 10px;
+}
+.about2 h2 {
+    font-family: "Poppins";
+    font-weight: bold;
+    margin: 30px 0 0 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.about2 p {
+    font-family: "Poppins";
+    font-weight: 400;
+    width: 400px;
+    margin: 10px 0 0 30px;
+}
+
+.supported {
+    background-color: #0d1017;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.supported .title-supported h4 {
+    color: white;
+    font-family: "Poppins";
+    text-transform: uppercase;
+}
+.supported .icon-supported {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: scroll;
+}
+.supported .icon-supported img {
+    margin: 0 10px;
+}
+.icon-supported img:nth-child(1) {
+    width: 120px;
+    height: 100px;
+}
+.icon-supported img:nth-child(2) {
+    width: 100px;
+    height: 100px;
+}
+.icon-supported img:nth-child(3) {
+    width: 100px;
+    height: 100px;
+}
+.icon-supported img:nth-child(4) {
+    width: 100px;
+    height: 100px;
+}
+.icon-supported img:nth-child(5) {
+    width: 100px;
+    height: 100px;
+}
+.icon-supported img:nth-child(6) {
+    width: 120px;
+    height: 50px;
+}
+
+@media screen and (max-width: 750px) {
+    .hero-section {
+        flex-direction: column-reverse;
+        margin: 10px 0;
+        padding: 255px 0;
+        background-color: black;
+    }
+    .hero-section .hero1 {
+        width: 100%;
+        margin: 150px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero1 h3 {
+        margin: 0 0 0 8px;
+        color: white;
+    }
+    .hero1 h1,
+    .hero1 h4 {
+        margin: 0 0 auto;
+        color: white;
+    }
+    .hero1 .animation-driyasz {
+        text-align: center;
+        animation: driyasz 3s infinite;
+    }
+    .social-icon {
+        justify-content: center;
+        align-items: center;
+        margin: 5px 0 0 0;
+    }
+    .social-icon img:hover {
+        transform: scale(0.9);
+        box-shadow: 0px 1px 5px 2px white;
+        border: 1px solid white;
+    }
+    .hero-section .hero2 {
+        width: 100%;
+        margin-top: 200px;
+    }
+    #about {
+        flex-direction: column-reverse;
+    }
+    #about .about1,
+    #about .about2 {
+        width: 100%;
+        background-color: white;
+        color: black;
+    }
+    #about .about1 {
+        margin: -50px 50px 0 0;
+        padding-bottom: 100px;
+    }
+    .about2 h2 {
+        text-align: center;
+        margin: 30px 0 0 0;
+    }
+    .about2 p {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+    .supported {
+        margin-top: -50px;
+    }
+}
